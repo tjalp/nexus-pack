@@ -1,1 +1,8 @@
-{"pack":{"description":"§fSnowstorm\n§cBy Ewan Howell","min_format":65,"max_format":75}}
+{
+    "pack": {
+        "description": "§fSnowstorm\n§cBy Ewan Howell",
+        "pack_format": 75,
+        "min_format": 65,
+        "max_format": 75
+    }
+}
