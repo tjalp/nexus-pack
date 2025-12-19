@@ -21,6 +21,7 @@ jobs:
           options: |
             pack_directory = 'snowstorm-pack'
             output_file_path = '/tmp/snowstorm-pack.zip'
+            artifact_name = 'Snowstorm Pack'
       - name: Run PackSquash for Nexus Pack
         uses: ComunidadAylas/PackSquash-action@v4
         with:
@@ -28,6 +29,7 @@ jobs:
           options: |
             pack_directory = 'nexus-pack'
             output_file_path = '/tmp/nexus-pack.zip'
+            artifact_name = 'Nexus Pack'
       - name: Tag and create release
         uses: softprops/action-gh-release@v2
         with:
