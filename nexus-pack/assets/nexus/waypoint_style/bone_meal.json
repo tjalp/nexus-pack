@@ -1,0 +1,11 @@
+{
+    "near_distance": 256,
+    "far_distance": 1024,
+    "sprites": [
+        "nexus:bone_meal_0",
+        "nexus:bone_meal_1",
+        "nexus:bone_meal_2",
+        "nexus:bone_meal_3",
+        "nexus:bone_meal_4"
+    ]
+}
