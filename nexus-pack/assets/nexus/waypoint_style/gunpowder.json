@@ -1,6 +1,6 @@
 {
     "near_distance": 256,
-    "far_distance": 1024,
+    "far_distance": 664,
     "sprites": [
         "nexus:gunpowder_0",
         "nexus:gunpowder_1",
