@@ -30,6 +30,14 @@ jobs:
           options: |
             pack_directory = 'nexus-pack'
             output_file_path = '/tmp/nexus-pack.zip'
+      - name: Run PackSquash for Halloween Pack
+        uses: ComunidadAylas/PackSquash-action@v4
+        with:
+          packsquash_version: latest
+          artifact_name: 'Halloween Pack'
+          options: |
+            pack_directory = 'halloween-pack'
+            output_file_path = '/tmp/halloween-pack.zip'
       - name: Tag and create release
         uses: softprops/action-gh-release@v2
         with:
@@ -37,3 +45,4 @@ jobs:
           files: |
             /tmp/snowstorm-pack.zip
             /tmp/nexus-pack.zip
+            /tmp/halloween-pack.zip

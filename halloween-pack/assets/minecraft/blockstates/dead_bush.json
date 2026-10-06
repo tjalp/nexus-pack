@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+        { "model": "minecraft:block/dead_bush",	"weight": 20},
+        { "model": "block/bush_skull" ,    		"weight": 1},
+		    { "model": "block/bush_skull" , "y": 90 ,    	"weight": 1},
+		    { "model": "block/bush_skull" , "y": 180 ,   	"weight": 1},
+		    { "model": "block/bush_skull" , "y": 270 ,   	"weight": 1}
+      ]
+  }
+}

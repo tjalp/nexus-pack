@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/rock_fact",
+		"particle": "block/rock_fact"
+	},
+	"elements": [
+		{
+			"from": [4, -2.5, 2.5],
+			"to": [13, 6.5, 13.5],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [4, -2.5, 2.5]},
+			"faces": {
+				"north": {"uv": [5.5, 11.5, 10, 16], "texture": "#0"},
+				"east": {"uv": [0, 11.5, 5.5, 16], "texture": "#0"},
+				"south": {"uv": [5.5, 7, 10, 11.5], "texture": "#0"},
+				"west": {"uv": [0, 7, 5.5, 11.5], "texture": "#0"},
+				"up": {"uv": [4.5, 7, 0, 1.5], "texture": "#0"},
+				"down": {"uv": [9, 1.5, 4.5, 7], "texture": "#0"}
+			}
+		}
+	]
+}

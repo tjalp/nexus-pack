@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 32],
+	"texture": "textures/entity/creeper/creeper.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [-6, 0, -6, 12, 12, 12],
+					"uvNorth": [40, 12, 52, 24],
+					"uvEast": [52, 12, 64, 24],
+					"uvSouth": [52, 12, 64, 24],
+					"uvWest": [52, 12, 64, 24],
+					"uvUp": [52, 12, 40, 0],
+					"uvDown": [64, 0, 52, 12]
+				}
+			]
+		}
+	]
+}
